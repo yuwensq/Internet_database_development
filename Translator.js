@@ -46,19 +46,19 @@
             window.open(url);
         }
         else {
-            alert(rawText + "不是纯英文");
+            alert('"' + rawText + '"' + "不是纯英文");
         }
     };
     div.appendChild(button);
     // 插入到最前面
     document.body.insertBefore(div, document.body.firstElementChild);
     // 右下角
-    window.onscroll = window.onresize = function () {// 当滑动和窗口大小改变时触发
+    function updateDivPos() {
         div.style.left = document.documentElement.clientWidth - div.offsetWidth + 'px';
         var scollTop = document.documentElement.scrollTop || document.body.scrollTop;
         div.style.top = document.documentElement.clientHeight - div.offsetHeight + scollTop + 'px';
-        // alert(div.style.left + "" + div.style.top);
     }
+    window.onscroll = window.onresize = updateDivPos; // 当滑动和窗口大小改变时触发
     // 识别鼠标划到的单词
     var show = true;
     document.onmouseup = function (e) {
@@ -68,6 +68,7 @@
             if (!show) {
                 show = true;
                 div.style.display = "";
+                updateDivPos();
             }
             input.value = selectionText;
         }
