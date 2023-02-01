@@ -1,0 +1,39 @@
+/***********************
+	-	BASICS 	-
+***********************/
+html {
+	overflow-x:hidden;
+	padding: 0 !important;
+	background:#fff;
+	margin:0px !important;
+}
+
+
+  /*********************************************************************************************
+		-	SET THE SCREEN SIZES FOR THE BANNER IF YOU WISH TO MAKE THE BANNER RESOPONSIVE 	-
+  **********************************************************************************************/
+
+  /*	-	THE BANNER CONTAINER (Padding, Shadow, Border etc. )	-	*/
+
+
+
+	.fullscreen-container {
+		width:100% !important;
+		position:relative;
+		padding:0;
+		height:100%;
+	}
+
+
+ /***************** THIS IS ONLY FOR DEMO , CAN BE DELETED **************/
+
+.bottomtexts-example,
+#topheader-to-offset 	{ position:relative;width:100%;min-height:120px;background-color:#421b3b; padding:30px 20px;box-sizing:border-box;-moz-box-sizing:border-box; text-align: center}
+
+.bottomtexts-example	{	background-color:#421b3b; padding:40px 20px}
+.bottomtexts-example h1,
+#topheader-to-offset h1	{ font-size:25px;line-height:35px; color:#fff; font-family:Arial; font-weight:300;margin-bottom:30px;text-align:center;}
+
+.bottomtexts-example p,
+#topheader-to-offset p	{ font-size:13px; line-height:18px; color:#fff; font-family:Arial; font-weight:300;}
+

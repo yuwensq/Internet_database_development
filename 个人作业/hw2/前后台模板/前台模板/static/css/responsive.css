@@ -1,0 +1,115 @@
+@media (max-width: 768px) {
+.top-navigation.sidr ul {
+	width:100%;
+	padding:0 50px;
+}
+.top-navigation.sidr ul li {
+	width:50%;
+	padding:0px 30px;
+}
+.main-nav.pull-right {
+	float:none !important;
+}
+.filter-tabs li.filter {
+	margin-bottom:15px;
+}
+.pagination > li {
+	margin-bottom:10px;
+	display:inline-block;
+	overflow:hidden;
+}
+.header-style-1 .main-menu li,
+.header-style-2 .main-menu li, 
+.header-style-3 .main-menu li {
+	display:block;
+}
+.our-team .team-box {
+	width:100%;
+}
+.services-gallery .service-gallery-box,
+.portfolio-gallery .portfolio-gallery-box {
+	width:100%;
+}
+.service-gallery-box .mask > h2, .portfolio-gallery-box .mask > h2 {
+	font-size:18px;
+}
+.team-box figure img {
+	height:auto;
+}
+}
+
+
+@media (max-width: 480px) {
+.top-navigation.sidr {
+	position:absolute !important;
+}
+.top-navigation.sidr ul {
+	width:100%;
+	overflow:hidden;
+}
+.top-navigation.sidr ul li {
+	width:100%;
+	padding:0px 30px;
+}
+
+
+/* Portfolio Style */
+.portfolio-gallery-box .mask > h2 {
+	margin-bottom:10px;
+}
+.portfolio-gallery-box:hover figure .mask {
+	padding:40px 0px;
+}
+
+/* Future Design */
+.future-design li {
+	width:100%;
+	margin-bottom:15px;
+	text-align:left;
+}
+
+/* BlockQuote Style*/
+.client-testimonial-box blockquote p {
+	font-size:16px;
+	line-height:26px;
+	font-weight:100;
+}
+
+/* Price Table Section */
+.price-box {
+	margin-bottom:30px;
+}
+
+/* Blog Section Style */
+.blog-box {
+	margin-bottom:50px;
+}
+
+/* Tab Style */
+.nav-tabs > li > a {
+    margin-right: 5px;
+    padding: 5px 9px;
+}
+.nav > li > a {
+	font-size: 14px;
+}
+
+/* Subscribe Form Style */
+.subscribe-form li input[type="text"] {
+	width:100%;
+	margin-bottom:15px;
+	font-size:12px;
+}
+
+/* Ready For Action Style */
+.ready-box h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 41px;
+	line-height:30px;
+}
+/* Service Section Style */
+.service-box-3 {
+	margin-bottom:50px;
+}
+}
